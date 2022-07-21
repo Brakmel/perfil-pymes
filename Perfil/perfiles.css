@@ -1,0 +1,101 @@
+body{
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:0%;
+}
+::-webkit-scrollbar {display: none;}
+/*Header*/
+header{
+    background-color: rgba(51, 57, 70, 0.77);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.volver{
+    width: 45%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.volver_img{
+    width: 20%;
+}
+.logo_ssneaker{
+    width: 10%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.logo_ssneaker_img{
+    width: 90%;
+}
+.perfiles{
+    width: 45%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: end;
+}
+.perfiles_img{
+    width: 20%;
+}
+/*Nuestro cuerpo de la pagina*/
+main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.baul_main{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+}
+.baul_circulo{
+    width: 33%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.circulo{
+    background-color: rgb(255, 0, 0);
+    width: 40%;
+    height: 200px;
+    border-radius: 100px;   
+}
+.img_originscl{
+    background-image: url(img/Orginiscl.PNG);
+    width: 100%;
+    height: 200px;
+    border-radius: 100px;   
+}
+.img_originscl:hover{
+    cursor: pointer;
+    -webkit-transform: rotate(360deg);
+    transition: 3S ease-in-out;
+}
+.comentarios{
+    width: 100%;
+    height: 300px;
+}
